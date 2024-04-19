@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: antiquewhite;
+    font-family: sans-serif;
+}
+button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+li {
+    height: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    border: 1.4px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+h1 {
+    font-weight: 700;
+    color: #fff;
+}
+h2 {
+    text-align: center;
+    color: #fff;
+}
+input {
+    width: 65%;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.container {
+    max-width: 500px;
+    min-height: 20vh;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #000000dd;
+    border: 3px solid blue;
+    border-radius: 10px;
+    padding: 20px 10px 5px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.todo_title__input_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.inp__button_container {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+#add {
+    width: 30%;
+    height: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+.todo__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.inp__checkbox_title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#checkbox {
+    width: 20px;
+}
+.delete_edit__button {
+    display: flex;
+    gap: 10px;
+}
+.delete_edit__button button {
+    width: 60px;
+    height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ff0000;
+}
+.edit__add_button {
+    width: 40px;
+    height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2d1717;
+    background-color: #1adc4a;
+}
